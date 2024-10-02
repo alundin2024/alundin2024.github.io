@@ -9,7 +9,7 @@
 .hero {
   padding-bottom: 20px;
 }
-.heroInfotext{
+.heroInfotext {
   padding: 10px;
 }
 .products {
@@ -22,8 +22,13 @@ img {
   padding: 1rem;
 }
 .mainlogo {
+  filter: none;
+  transition: filter 500ms;
   height: 200px;
   border-radius: 1em;
+}
+.mainlogo:hover {
+  filter:saturate(100)
 }
 .searchContainer {
   display: flex;
@@ -100,10 +105,10 @@ h4 {
   position: relative;
   width: 200px;
 }
-.liknandeProdukter{
+.liknandeProdukter {
   padding-bottom: 20px;
 }
-.sectionSpotDetails{
+.sectionSpotDetails {
   padding-bottom: 20px;
 }
 .spots,
