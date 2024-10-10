@@ -28,7 +28,7 @@ img {
   border-radius: 1em;
 }
 .mainlogo:hover {
-  filter:saturate(100)
+  filter: saturate(100);
 }
 .searchContainer {
   display: flex;
@@ -386,12 +386,15 @@ details > summary::-webkit-details-marker {
     display: flex;
     flex-direction: row;
   }
-  .heropicture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+  .fieldsetHero{
+    display:flex;
+    flex-direction: row-reverse;
+    padding: 20px;
   }
+  .heroFirstPage{
+    width: 55%;
+  }
+  
   nav {
     display: flex;
   }
